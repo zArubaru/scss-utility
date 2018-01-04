@@ -1,0 +1,13 @@
+{
+  "name": "scss-utility",
+  "version": "0.0.5",
+  "description": "A simple scss framework.",
+  "main": "_main.scss",
+  "repository": "https://github.com/zArubaru/scss-utility",
+  "author": "Alvar Hyvönen <alvar@arbus.fi> (http://arbus.fi/)",
+  "license": "MIT",
+  "dependencies": {
+    "breakpoint-sass": "^2.7.1",
+    "reset-css": "^2.2.1"
+  }
+}

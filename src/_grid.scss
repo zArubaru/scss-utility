@@ -1,0 +1,42 @@
+/**
+ * Inspired by https://sherbrow.github.io/ungrid/flex.html
+ */
+
+@mixin row($small-direction: column, $medium-direction: row, $large-direction: null, $xlarge-direction: null) {
+  display: block;
+  display: flex;
+  flex-direction: $small-direction;
+
+  @include breakpoint($medium) {
+    flex-direction: $medium-direction;
+  }
+
+  @if ($large-direction) {
+    @include breakpoint($large) {
+      flex-direction: $large-direction;
+    }
+  }
+
+  @if ($xlarge-direction) {
+    @include breakpoint($xlarge) {
+      flex-direction: $xlarge-direction;
+    }
+  }
+}
+
+.row {
+  @include row;
+}
+
+.row--boat {
+  @include row(row, row); // your boat.
+}
+
+
+@mixin col($flex-basis: 0%) {
+  flex: 1 1 $flex-basis;
+}
+
+.col {
+  @include col;
+}
