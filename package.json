@@ -1,7 +1,7 @@
 {
   "name": "scss-utility",
-  "version": "0.0.5",
-  "description": "A simple scss framework.",
+  "version": "0.0.6",
+  "description": "A simple SCSS framework. Includes a Flexbox grid, breakpoints, clearfix, and screen reader classes.",
   "main": "_main.scss",
   "repository": "https://github.com/zArubaru/scss-utility",
   "author": "Alvar Hyvönen <alvar@arbus.fi> (http://arbus.fi/)",
