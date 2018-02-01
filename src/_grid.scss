@@ -35,6 +35,7 @@
 
 @mixin col($flex-basis: 0%) {
   flex: 1 1 $flex-basis;
+  box-sizing: border-box;
 }
 
 .col {

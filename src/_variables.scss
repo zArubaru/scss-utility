@@ -1,12 +1,18 @@
-$small:        576px !default;
-$medium:       768px !default;
-$large:        1024px !default;
-$xlarge:       1600px !default;
+$small:           576px !default;
+$medium:          768px !default;
+$large:           1024px !default;
+$xlarge:          1600px !default;
 
-$small-down:   0 ($small - 1px) !default;
-$medium-down:  0 ($medium - 1px) !default;
-$large-down:   0 ($large - 1px) !default;
-$xlarge-down:  0 ($xlarge - 1px) !default;
+$small-down:      0 ($small - 1px) !default;
+$medium-down:     0 ($medium - 1px) !default;
+$large-down:      0 ($large - 1px) !default;
+$xlarge-down:     0 ($xlarge - 1px) !default;
 
-$color_black:  #0a0a0a !default;
-$color_white:  #fefefe !default;
+$color_black:     #0a0a0a !default;
+$color_white:     #fefefe !default;
+
+$color_facebook:  #3b5999;
+$color_instagram: #e4405f;
+$color_linkedin:  #0077b5;
+$color_twitter:   #55acee;
+$color_youtube:   #cd201f;
