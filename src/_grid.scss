@@ -29,12 +29,13 @@
 }
 
 .row--boat {
-  @include row(row, row); // your boat.
+  flex-direction: row;
 }
 
 
-@mixin col($flex-basis: 0%) {
-  flex: 1 1 $flex-basis;
+@mixin col($flex-basis: 0%, $flex-grow-shrink: 1, $flex-shrink: null) {
+  flex: $flex-grow-shrink $flex-grow-shrink $flex-basis;
+  flex-shrink: $flex-shrink;
   box-sizing: border-box;
 }
 

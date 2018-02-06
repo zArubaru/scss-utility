@@ -4,11 +4,11 @@ A simple SCSS framework. Includes a Flexbox grid, breakpoints, clearfix, and scr
 
 ## Installation
 
-$ `yarn add scss-utility`
+$ `yarn add -D scss-utility`
 
 **OR**
 
-$ `npm install scss-utility`
+$ `npm install -D scss-utility`
 
 **AND** import anywhere SCSS is supported:
 
