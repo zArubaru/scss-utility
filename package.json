@@ -1,6 +1,6 @@
 {
   "name": "scss-utility",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "A simple SCSS framework. Includes a Flexbox grid, breakpoints, clearfix, and screen reader classes.",
   "main": "_main.scss",
   "repository": "https://github.com/zArubaru/scss-utility",
